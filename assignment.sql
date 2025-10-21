@@ -15,7 +15,7 @@ go
 
 select patindex('%[^0-9]%','rishi4the190')
 go
-
+------------------------------------------------------------------------------------------------------------
 create function extract__numbers 
 (@input varchar(50))
 returns varchar(50) as
