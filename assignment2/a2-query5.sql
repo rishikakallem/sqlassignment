@@ -1,0 +1,2 @@
+--5) Write an SQL query to fetch all the Employees who are also managers from the Employee Details table.
+select distinct e.empid,e.empname from employeedetails e inner join employeedetails e1 on e.empid=e1.ManagerID
